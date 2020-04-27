@@ -61,8 +61,16 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  color: darkslateblue;
+  color:black;
   font-size: 1rem;
+}
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 body {
   line-height: 1;
@@ -93,7 +101,7 @@ h3 {
 a:hover {
 color: lightblue;
 text-decoration: none;
-background-color: whitesmoke;
+background-color: darkgoldenrod;
 }
 
 a:link, a:visited {
